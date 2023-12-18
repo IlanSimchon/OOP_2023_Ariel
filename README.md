@@ -33,11 +33,6 @@ Welcome to the Object-Oriented Programming (OOP) course repository! This reposit
 
 ## Lesson 10:
 
-## Lesson 11:
-
-## Lesson 12: 
-
-## Lesson 13: 
 
 Please navigate to the corresponding folders (e.g., "TA 1") to access the materials and code files for each lesson.
 
