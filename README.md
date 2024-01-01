@@ -13,7 +13,9 @@ Welcome to the Object-Oriented Programming (OOP) course repository!
 This repository serves as a resource for students to access lecture presentations and code files for our Java and Python OOP course. 
 Below, you'll find an overview of the topics covered in each lesson:
 
-1. Introduction to Object-Oriented Programming and Python
+1. ## Introduction to Object-Oriented Programming and Python
+2. 
+- ## Lesson 2: Introduction to Object-Oriented Programming and Python
   - Introduction to the principles of OOP.
   - Basic concepts in Python programming.
 - ## Lesson 2:
