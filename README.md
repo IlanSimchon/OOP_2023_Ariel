@@ -1,13 +1,12 @@
 # Object-Oriented Programming Course Repository 
 
-#### Ariel University, Winter 2024
-
 Welcome to the Object-Oriented Programming (OOP) course repository! 
+### Ariel University, Winter 2024
+
+### Course e-mail: 
+  oopariel2024@gmail.com (All communication will be done by email)
 
 ## [Syllabus](https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf)
-
-## Course e-mail: 
-  oopariel2024@gmail.com (All communication will be done by email)
 
 This repository serves as a resource for students to access lecture presentations and code files for our Java and Python OOP course. 
 Below, you'll find an overview of the topics covered in each lesson:
