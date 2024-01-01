@@ -1,14 +1,17 @@
 # Object-Oriented Programming Course Repository 
-### Ariel University, 2023
 
+#### Ariel University, Winter 2024
 
-Welcome to the Object-Oriented Programming (OOP) course repository! This repository serves as a resource for students to access lecture presentations and code files for our Java and Python OOP course. Below, you'll find an overview of the topics covered in each lesson:
+## Syllabus[https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf]
 
-## Lesson 1: Introduction to Object-Oriented Programming and Python
-- Introduction to the principles of OOP.
-- Basic concepts in Python programming.
+Welcome to the Object-Oriented Programming (OOP) course repository! 
+This repository serves as a resource for students to access lecture presentations and code files for our Java and Python OOP course. 
+Below, you'll find an overview of the topics covered in each lesson:
 
-## Lesson 2:
+* ## Lesson 1: Introduction to Object-Oriented Programming and Python
+  - Introduction to the principles of OOP.
+  - Basic concepts in Python programming.
+* ## Lesson 2:
 
 ## Lesson 3: Interfaces, Inheritance, Abstract Class, and Polymorphism
 - Understanding interfaces and inheritance.
