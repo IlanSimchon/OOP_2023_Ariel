@@ -17,6 +17,9 @@ Below, you'll find an overview of the topics covered in each lesson:
   - Introduction to the principles of OOP.
   - Basic concepts in Python programming.
 - ## Lesson 2:
+- static keyword
+- API
+- encapsulation
 - ## Lesson 3: Interfaces, Inheritance, Abstract Class, and Polymorphism
   - Understanding interfaces and inheritance.
   - Working with abstract classes and achieving polymorphism.
