@@ -2,10 +2,9 @@
 
 #### Ariel University, Winter 2024
 
-### Course e-mail: 
+- ### Course e-mail: 
   oopariel2024@gmail.com (All communication will be done by email)
-
-### [Syllabus](https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf)
+- ### [Syllabus](https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf)
 
 Welcome to the Object-Oriented Programming (OOP) course repository! 
 
