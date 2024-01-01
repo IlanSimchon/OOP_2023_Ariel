@@ -2,7 +2,7 @@
 
 #### Ariel University, Winter 2024
 
-## (Syllabus)[https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf]
+## [Syllabus](https://github.com/IlanSimchon/OOP_2023_Ariel/blob/main/Syllabus%2B(0).pdf)
 
 Welcome to the Object-Oriented Programming (OOP) course repository! 
 This repository serves as a resource for students to access lecture presentations and code files for our Java and Python OOP course. 
