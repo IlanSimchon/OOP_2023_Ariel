@@ -1,13 +1,13 @@
 # Access Items
 # You access the list items by referring to the index number:
 this_list = ["apple", "banana", "cherry"]
-print(this_list[1])  # output: apple
+print(this_list[1])  # output: banana
 
 # Negative Indexing
 # Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
 
 this_list = ["apple", "banana", "cherry"]
-print(this_list[-1])
+print(this_list[-1]) # output: cherry
 
 # Range of Indexes
 # the return value will be a new list with the specified items.
