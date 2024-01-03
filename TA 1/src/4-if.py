@@ -41,6 +41,11 @@ print("A") if a > b else print("B")
 # One line if else statement, with 3 conditions:
 print("A") if a > b else print("=") if a == b else print("B")
 
+
+a = 9
+b = 20
+x = a if a > b else b
+
 # And
 if a > b and c > a:
     print("Both conditions are True")
@@ -62,8 +67,8 @@ if x > 10:
     else:
         print("but not above 20.")
 
-    # put in the pass statement to make it empty:
 
+    # put in the pass statement to make it empty:
 a = 33
 b = 200
 if b > a:

@@ -4,7 +4,7 @@ print(type(x))
 y = 3.4
 print(type(y))
 # convert from int to float:
-a = float(x)
+a = float(x) # 1 will be 1.0
 
 # convert from float to int:
 b = int(y)  # 1.0 will be 1
@@ -12,6 +12,7 @@ b = int(y)  # 1.0 will be 1
 a = str(3.444)
 print(a)
 print(type(a))
+
 x = 2
 print("Exponentiation is nice", x, "**2 =", x ** 2)
 

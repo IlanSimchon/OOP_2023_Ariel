@@ -17,6 +17,7 @@ print(set3)
 # Note: Both union() and update() will exclude any duplicate items.
 # The update() method inserts the items in set2 into set1:
 set1.update(set2)
+print(set1)
 
 # To remove an item in a set, use the remove(), or the discard() method.
 this_set.remove("banana")

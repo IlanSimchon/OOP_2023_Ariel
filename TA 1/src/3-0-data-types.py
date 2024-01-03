@@ -23,6 +23,7 @@ a, b, c = 2.8, -35.59, -87.7e100  # float: positive or negative, containing one 
 # ______________________Lists________________________#
 x = ["apple", "banana", "cherry"]  # list: ordered and changeable. Allows duplicate members
 
+
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 # ______________________________________________#
@@ -58,3 +59,5 @@ l = False
 x = b"Hello"
 x = bytearray(5)
 x = memoryview(bytes(5))
+
+

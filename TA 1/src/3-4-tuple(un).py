@@ -6,7 +6,7 @@
 # Check if Item Exists
 # Tuple Length
 # create tuple with one item:
-# One item tuple, remember the commma:
+# One item tuple, remember the commmand:
 this_tuple = ("apple",)
 print(type(this_tuple))
 # NOT a tuple
@@ -21,7 +21,6 @@ y[1] = "kiwi"
 x = tuple(y)
 
 # tuple method:
-this_tuple = tuple(("apple", "banana", "cherry"))
 # Return the number of times the value 5 appears in the tuple:
 this_tuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
 print(this_tuple.count(5))

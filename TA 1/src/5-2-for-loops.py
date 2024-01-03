@@ -68,24 +68,12 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj:
     for y in fruits:
         print(x, y)  # tryit: https://www.w3schools.com/python/trypython.asp?filename=demo_for_nested
-# you can make for loops empty by pass statement:
 
+# you can make for loops empty by pass statement:
 for x in [0, 1, 2]:
     pass
 
 
-# Recursion
-def tri_recursion(k):
-    if (k > 0):
-        result = k + tri_recursion(k - 1)
-        print(result)
-    else:
-        result = 0
-    return result
-
-
-print("\n\nRecursion Example Results")
-tri_recursion(6)
 # ---------------
 i = 1
 while i < 6:

@@ -7,12 +7,17 @@ print(y)
 # Variable Names
 #
 # A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+x1 = 5
+# x$ = 7
+
 # (case sensitive and don't start with a number)
+X = 8
+print(x is X)
 
 x = 4  # x is of type int
 x = "Sally"  # x is now of type str
 print(x)
-# Ouput Variables
+# Output Variables
 x = "awesome"
 
 print("Python is " + x)
@@ -52,7 +57,6 @@ Operator 	Example 	Same As
 <<=       	x <<= 3 	x = x << 3 	
 
 """
-
 # Multiple Variables
 
 x, y, z = "Orange", "Banana", "Cherry"
@@ -89,7 +93,6 @@ print("Python is " + x)  # the output will be the global one (awesome)
 
 
 # If you use the global keyword, the variable belongs to the global scope:
-
 def myfunc():
     global x
     x = "fantastic"
@@ -97,8 +100,7 @@ def myfunc():
 
 myfunc()
 
-print(
-    "Python is " + x)  # print the var x assigned globally by the latter function, try it without global to better understanding.
+print("Python is " + x)  # print the var x assigned globally by the latter function, try it without global to better understanding.
 
 # ----------------------------------------------#
 # Also, use the global keyword if you want to change a global variable inside a function.
