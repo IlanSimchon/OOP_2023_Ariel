@@ -18,6 +18,9 @@ public class Main {
         System.out.println("overall average: " + overallAverage);
 
 
+        System.out.println('\n');
+
+
         // encapsulation
         AccessModifiers obj = new AccessModifiers();
 
@@ -32,6 +35,12 @@ public class Main {
         // Can access default field and method
         System.out.println(obj.defaultField);
         obj.defaultMethod();
+
+
+
+        System.out.println('\n');
+
+        // deep copy
 
         // Create an address
         Address originalAddress = new Address("CityA", "Street1");
@@ -67,8 +76,8 @@ public class Main {
         }
 
         // update original
-        for (int i = 4; i > 0 ; i--) {
-            original[i] = i;
+        for (int i = 4; i >= 0 ; i--) {
+            original[4-i] = i;
         }
 
         System.out.println("original: " + Arrays.toString(original));
