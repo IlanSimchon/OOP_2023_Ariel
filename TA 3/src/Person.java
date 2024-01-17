@@ -28,8 +28,9 @@ class Person {
         return age;
     }
 
-    // Implementing Comparators
-
+    /**
+     * Implementing Comparators by fields
+     **/
     // Comparator for sorting by age
     public static Comparator<Person> ageComparator = Comparator.comparingInt(Person::getAge);
 
@@ -39,8 +40,16 @@ class Person {
     // Comparator for sorting by id
     public static Comparator<Person> idComparator = Comparator.comparingInt(Person::getId);
 
-    // Example of usage: sorting a list of persons
 
+    /**
+     * Implementing Comparators by inner class
+     */
+    static class AgeComparator implements Comparator<Person> {
+        @Override
+        public int compare(Person person1, Person person2) {
+            return Integer.compare(person1.getAge(), person2.getAge());
+        }
+    }
 
     // Override toString method
     @Override
