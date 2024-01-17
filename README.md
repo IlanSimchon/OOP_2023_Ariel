@@ -22,8 +22,11 @@ Below, you'll find an overview of the topics covered in each lesson:
 - encapsulation
 - ## Lesson 3: Interfaces, Inheritance, Abstract Class, and Polymorphism
   - Understanding interfaces and inheritance.
-  - Working with abstract classes and achieving polymorphism.
+  - Working with abstract classes.
+  - Comperator
+  - Iterator
 - ## Lesson 4:
+- polymorphism
 - ## Lesson 5: Exceptions, JUnit, Generics
   - Handling exceptions in Java.
   - Introduction to JUnit testing.
