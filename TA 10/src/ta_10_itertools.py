@@ -23,6 +23,7 @@ import itertools
 
 data1 = [1, 2, 3]
 data2 = [4, 5, 6]
+
 combined_iter = itertools.chain(data1, data2)
 
 for item in combined_iter:
@@ -42,10 +43,13 @@ for item in combined_iter:
 """
 
 count = 0
-for item in itertools.cycle(['a', 'b', 'c']):
+
+list_abc = ['a', 'b', 'c']
+
+for item in itertools.cycle(list_abc):
     print(item)
     count += 1
-    if count >= 6:
+    if count >= 2*len(list_abc):
         break
 
 
@@ -61,6 +65,7 @@ for item in itertools.cycle(['a', 'b', 'c']):
 """
 
 perms = itertools.permutations('abc', 2)
+
 for perm in perms:
     print(perm)
 
@@ -75,6 +80,7 @@ for perm in perms:
 """
 
 combs = itertools.combinations('abcd', 2)
+
 for comb in combs:
     print(comb)
 
