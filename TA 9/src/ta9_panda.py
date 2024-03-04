@@ -50,8 +50,27 @@ filtered_data = data[(data['sepal length (cm)'] > 5.0) & (data['sepal width (cm)
 # Select specific columns
 selected_columns = data[['sepal length (cm)', 'sepal width (cm)']]
 
+# Accessing rows and columns using loc
+
 # Select rows based on index
-row = data.loc[5]  # Select row with index 5
+row_index_5 = data.loc[5]  # Select row with index 5
+
+print("\nRow with index 5:")
+print(row_index_5)
+
+# Accessing rows and columns using iloc
+
+# Accessing the first row
+print("\nFirst row:")
+print(data.iloc[0])
+
+# Accessing the first column
+print("\nFirst column:")
+print(data.iloc[:, 0])
+
+# Accessing a specific row and column
+print("\nValue at row 2, column 3:")
+print(data.iloc[1, 2])
 
 """**Grouping and Aggregation:**"""
 
@@ -85,3 +104,4 @@ plt.show()
 
 # Plot line chart (not applicable to Iris dataset)
 # Example: data.plot(x='date_column', y='numeric_column')
+
